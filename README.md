@@ -17,6 +17,8 @@ pipeline runs against live sites or against fixtures in tests.
 > Use it on data you are allowed to access, respect each site's terms of service
 > and keep request rates reasonable.
 
+![Change detection between runs](docs/example.png)
+
 ## Install
 
 ```bash
