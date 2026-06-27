@@ -1,0 +1,14 @@
+[
+  {
+    "name": "books-to-scrape",
+    "url": "https://books.toscrape.com/catalogue/category/books/mystery_3/index.html",
+    "item_selector": "article.product_pod",
+    "key_field": "url",
+    "fields": {
+      "title": { "selector": "h3 a", "attr": "title" },
+      "price": { "selector": ".price_color" },
+      "availability": { "selector": ".availability" },
+      "url": { "selector": "h3 a", "attr": "href" }
+    }
+  }
+]

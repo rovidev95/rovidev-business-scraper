@@ -1,0 +1,11 @@
+services:
+  scraper:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      SCRAPER_MIN_INTERVAL: "1.0"
+      SCRAPER_RESPECT_ROBOTS: "true"
+      SCRAPER_STATE_DIR: "data/state"
+    volumes:
+      - ./data:/app/data
